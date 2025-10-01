@@ -16,7 +16,7 @@ vim.pack.add({
 })
 
 require "nvim-treesitter.configs".setup({
-	ensure_installed = {"c"}
+	ensure_installed = {"c", "typst" },
 	highlight = {enable = true}
 })
 
